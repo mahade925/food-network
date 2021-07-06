@@ -40,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a {
-    padding-left: 55px;
+    padding-left: 40px;
     text-decoration: none;
     color: #111;
 }
@@ -164,7 +164,7 @@ nav ul li a:hover {
 /* recipie section */
 .recipies {
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
 }
 
 .recipies .head{
@@ -229,6 +229,67 @@ nav ul li a:hover {
     margin: 4%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
+
+/* contact section */
+#contact-us {
+    padding-top: 5%
+}
+.contact {
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.contact .image {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.contact .image img {
+    width: 80%;
+}
+
+.form {
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 8%;
+}
+
+.form form input {
+    width: 65%;
+    line-height: 4;
+    border: 1px solid grey;
+    outline: none;
+    background: #ffffff;
+    border-radius: 30px;
+    text-align: center
+}
+.form form textarea {
+    width: 65%;
+    border-radius: 10px;
+    border: 1px solid gray
+}
+
+#contact-txt {
+    text-align: center;
+    padding-bottom: 3%
+}
+
+.form form button {
+    width: 170px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(90deg, hsla(42, 93%, 57%, 1) 0%, hsla(358, 78%, 62%, 1) 100%);
+    color: #fff;
+    text-transform: bold;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0px 15px 20px rgba(106, 111, 109, 0.4);
+}
+
+
+
 
 /* footer section */
 footer {
