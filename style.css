@@ -1,0 +1,66 @@
+
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    display: flex;
+}
+
+.home .content {
+    width: 50%;
+    padding-left: 11%;
+    padding-top: 13%;
+}
+
+.home .img {
+    width: 50%;
+}
+
+.home .highlight {
+    color: rgb(255, 134, 5);
+}
+
+.home .content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #554e4e;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home .content p {
+    padding-top: 3%;
+    padding-bottom: 6%;
+    color: #716a6a;
+    font-size: 18px;
+}
+
+.home .content .button a {
+    background: #ffe259;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f79c44, #ea4343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 17px 33px;
+    text-decoration: none;
+    text-transform: bold;
+    color: white;
+    border-radius: 35px;
+    box-shadow: 0px 8px 15px rgba(8, 8, 8, 0.219);
+    transition: all 0.3s ease 0s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home .content .button a:hover{
+    background: linear-gradient(to right, #ea4343, #f79c44);
+}
+
+.home .img img {
+    padding-top: 8%;
+}
+
+
+
