@@ -79,7 +79,10 @@ body {
     display: flex;
     padding-top: 39px;
     padding-bottom: 0;
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    background-image: url(images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%); */
 }
 
 .about .about-content {
@@ -89,20 +92,20 @@ body {
 }
 
 .about img {
-    width: 50%;
-    margin-left: 10%;
+    width: 51%;
+    margin-left: 36%;
 }
 
 .about .about-content h1 {
     font-size: 55px;
-    color: #ffffff;
+    color: #111;
     padding-bottom: 5%;
     font-size: 60px;
 }
 
 .about .about-content p {
     padding-bottom: 12%;
-    color: #dad4d4
+    color: #8f8e8e
 }
 
 .btn a {
