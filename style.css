@@ -16,8 +16,45 @@ body {
 }
 
 /* home section */
+header {
+    display: flex;
+}
 
-.home {
+.logo {
+    padding-left: 11%;
+}
+
+.l-food {
+    color: rgb(255, 134, 5);
+}
+
+nav {
+    padding-left: 35%;
+}
+
+nav ul li {
+    padding-top: 10%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav ul li a {
+    padding-left: 55px;
+    text-decoration: none;
+    color: #111
+}
+
+nav ul li a:hover {
+    color: rgb(255, 134, 5);
+    transition: 1s ease-in-out;
+}
+
+.logo h1 {
+    font-size: 35px;
+    padding-top: 11%;
+}
+
+.home-content {
     display: flex;
     padding-bottom: 10%
 }
